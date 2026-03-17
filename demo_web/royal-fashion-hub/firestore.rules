@@ -1,0 +1,43 @@
+// ============================================
+// Firestore Security Rules
+// Royal Fashion Hub
+//
+// INSTRUCTIONS:
+// 1. Go to Firebase Console > Firestore Database
+// 2. Click on the "Rules" tab
+// 3. Replace the default rules with the rules below
+// 4. Click "Publish"
+// ============================================
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ==============================
+    // Products Collection
+    // ==============================
+    match /products/{productId} {
+
+      // PUBLIC: Anyone can READ products
+      // (Needed for the shop page to display products)
+      allow read: if true;
+
+      // ADMIN ONLY: Only authenticated users can CREATE products
+      allow create: if request.auth != null;
+
+      // ADMIN ONLY: Only authenticated users can UPDATE products
+      allow update: if request.auth != null;
+
+      // ADMIN ONLY: Only authenticated users can DELETE products
+      allow delete: if request.auth != null;
+    }
+
+    // ==============================
+    // Default: Deny all other access
+    // ==============================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

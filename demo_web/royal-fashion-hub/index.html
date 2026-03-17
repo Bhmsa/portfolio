@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Royal Fashion Hub - Your premium destination for trendy Indian fashion. Explore Men's, Women's & Kids' clothing collections at affordable prices.">
+  <meta name="keywords" content="royal fashion hub, clothing shop, Indian fashion, men clothing, women clothing, kids clothing, affordable fashion, trendy clothes">
+  <meta name="author" content="Royal Fashion Hub">
+  <meta name="theme-color" content="#c2185b">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Royal Fashion Hub - Premium Indian Fashion">
+  <meta property="og:description" content="Discover the latest trends in Indian fashion. Quality clothing for Men, Women & Kids.">
+  <meta property="og:type" content="website">
+
+  <title>Royal Fashion Hub | Premium Indian Clothing Store</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== Loading Overlay ========== -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- ========== Navigation ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">👑</div>
+        <div class="nav-logo-text">Royal <span>Fashion</span></div>
+      </a>
+
+      <!-- Navigation Links -->
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="shop.html" class="nav-cta">Shop Now</a>
+      </div>
+
+      <!-- Mobile Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== Hero Section ========== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          ✨ New Collection 2026
+        </div>
+        <h1 class="hero-title">
+          Discover Your<br>
+          <span>Perfect Style</span>
+        </h1>
+        <p class="hero-description">
+          Welcome to Royal Fashion Hub — your premium destination for trendy, affordable clothing. Explore curated collections for Men, Women & Kids that celebrate Indian elegance.
+        </p>
+        <div class="hero-buttons">
+          <a href="shop.html" class="btn btn-primary">
+            🛍️ Shop Collection
+          </a>
+          <a href="about.html" class="btn btn-secondary">
+            Learn More
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-number">5K+</div>
+            <div class="hero-stat-label">Happy Customers</div>
+          </div>
+          <div>
+            <div class="hero-stat-number">500+</div>
+            <div class="hero-stat-label">Products</div>
+          </div>
+          <div>
+            <div class="hero-stat-number">100%</div>
+            <div class="hero-stat-label">Quality Assured</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&h=800&fit=crop" alt="Royal Fashion Hub - Trendy Fashion Collection" id="heroImg">
+        </div>
+        <!-- Floating Cards -->
+        <div class="hero-floating-card card-1">
+          <div class="card-icon pink">🎉</div>
+          <div>
+            <div class="card-text">New Arrivals</div>
+            <div class="card-subtext">Fresh styles daily</div>
+          </div>
+        </div>
+        <div class="hero-floating-card card-2">
+          <div class="card-icon purple">⭐</div>
+          <div>
+            <div class="card-text">Top Rated</div>
+            <div class="card-subtext">4.9 / 5.0 Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Categories Section ========== -->
+  <section class="categories section" id="categories">
+    <div class="container">
+      <h2 class="section-title">Shop by Category</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Find the perfect outfit for everyone in your family</p>
+
+      <div class="categories-grid">
+        <!-- Men's Category -->
+        <a href="shop.html" class="category-card animate-on-scroll">
+          <div class="category-card-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=400&fit=crop" alt="Men's Fashion Collection">
+            <div class="category-card-overlay">
+              <h3>Men's Fashion</h3>
+              <p>Shirts, Trousers, Kurtas & more</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Women's Category -->
+        <a href="shop.html" class="category-card animate-on-scroll">
+          <div class="category-card-image">
+            <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=500&h=400&fit=crop" alt="Women's Fashion Collection">
+            <div class="category-card-overlay">
+              <h3>Women's Fashion</h3>
+              <p>Sarees, Suits, Kurtis & more</p>
+            </div>
+          </div>
+        </a>
+
+        <!-- Kids' Category -->
+        <a href="shop.html" class="category-card animate-on-scroll">
+          <div class="category-card-image">
+            <img src="https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=500&h=400&fit=crop" alt="Kids' Fashion Collection">
+            <div class="category-card-overlay">
+              <h3>Kids' Fashion</h3>
+              <p>Adorable outfits for little ones</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Featured Products ========== -->
+  <section class="featured-products section" id="featured">
+    <div class="container">
+      <h2 class="section-title">Featured Collection</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Handpicked styles from our latest arrivals</p>
+
+      <!-- Products Grid (Dynamic from Firestore) -->
+      <div class="products-grid" id="featuredGrid">
+        <!-- Products loaded dynamically via JavaScript -->
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="shop.html" class="btn btn-primary">View All Products →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Why Choose Us ========== -->
+  <section class="why-us section" id="whyUs">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Experience the Royal Fashion Hub difference</p>
+
+      <div class="why-us-grid">
+        <div class="why-us-card animate-on-scroll">
+          <div class="why-us-icon">✨</div>
+          <h3>Premium Quality</h3>
+          <p>Every piece is crafted with the finest fabrics and impeccable attention to detail.</p>
+        </div>
+        <div class="why-us-card animate-on-scroll">
+          <div class="why-us-icon">💰</div>
+          <h3>Affordable Prices</h3>
+          <p>Premium fashion doesn't have to cost a fortune. Best value guaranteed.</p>
+        </div>
+        <div class="why-us-card animate-on-scroll">
+          <div class="why-us-icon">🚚</div>
+          <h3>Easy Shopping</h3>
+          <p>Browse our collection and visit our store for a delightful shopping experience.</p>
+        </div>
+        <div class="why-us-card animate-on-scroll">
+          <div class="why-us-icon">🎨</div>
+          <h3>Latest Trends</h3>
+          <p>Stay fashionable with our regularly updated collection of trendy designs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Testimonials ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Hear from our happy customers across India</p>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card animate-on-scroll">
+          <p class="testimonial-text">
+            "Royal Fashion Hub has the best collection in town! I always find something that perfectly matches my style. Their quality is unmatched."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">P</div>
+            <div>
+              <div class="testimonial-author-name">Priya Sharma</div>
+              <div class="testimonial-author-location">Jaipur, Rajasthan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <p class="testimonial-text">
+            "My go-to shop for all family clothing needs. The prices are very reasonable and the staff is always helpful. Highly recommended!"
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div>
+              <div class="testimonial-author-name">Rajesh Kumar</div>
+              <div class="testimonial-author-location">Udaipur, Rajasthan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate-on-scroll">
+          <p class="testimonial-text">
+            "I love the kids' collection here! Great variety, beautiful designs, and everything is so comfortable. My children love their new clothes!"
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <div class="testimonial-author-name">Anita Meena</div>
+              <div class="testimonial-author-location">Jodhpur, Rajasthan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA Banner ========== -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to Upgrade Your Wardrobe?</h2>
+      <p>Visit our store or browse our collection online. New styles added every week!</p>
+      <a href="shop.html" class="btn btn-white">
+        🛍️ Explore Collection
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <h3>Royal <span>Fashion Hub</span></h3>
+          <p>Your premium destination for trendy, quality fashion in India. We bring you curated collections for the entire family.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+            <a href="#" aria-label="YouTube">📺</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Admin Login</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="footer-column">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="shop.html">Men's Collection</a></li>
+            <li><a href="shop.html">Women's Collection</a></li>
+            <li><a href="shop.html">Kids' Collection</a></li>
+            <li><a href="shop.html">New Arrivals</a></li>
+            <li><a href="shop.html">Best Sellers</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h4>Get In Touch</h4>
+          <div class="footer-contact-item">
+            <span class="icon">📍</span>
+            <span>Main Market Road, Near Clock Tower, Rajasthan, India</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">📞</span>
+            <span>+91 98765 43210</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">✉️</span>
+            <span>info@royalfashionhub.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">🕐</span>
+            <span>Mon - Sat: 10 AM to 9 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Royal Fashion Hub. All rights reserved. Made with ❤️ in India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Scripts ========== -->
+  <script type="module">
+    import { initFeaturedProducts } from './js/products.js';
+
+    // Initialize featured products on home page
+    initFeaturedProducts();
+
+    // ==============================
+    // Navigation Scroll Effect
+    // ==============================
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // ==============================
+    // Mobile Menu Toggle
+    // ==============================
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile menu when clicking a link
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // ==============================
+    // Scroll Animation Observer
+    // ==============================
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animated');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+      observer.observe(el);
+    });
+
+    // ==============================
+    // Hide Loading Overlay
+    // ==============================
+    window.addEventListener('load', () => {
+      const overlay = document.getElementById('loadingOverlay');
+      setTimeout(() => {
+        overlay.classList.add('hidden');
+        setTimeout(() => overlay.remove(), 500);
+      }, 600);
+    });
+  </script>
+
+</body>
+</html>

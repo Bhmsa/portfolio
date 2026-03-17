@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The1857House — Affordable Fast Food Cafe in Udaipur</title>
+  <meta name="description" content="The1857House is a local cafe in Udaipur serving tasty and affordable fast food — burgers, hot dogs, pizza, fries and cold coffee. Perfect for students and friends." />
+  <meta name="keywords" content="cafe Udaipur, fast food Udaipur, burger, pizza, cold coffee, The1857House, affordable food, student cafe" />
+  <meta name="author" content="The1857House" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="The1857House — Affordable Fast Food Cafe in Udaipur" />
+  <meta property="og:description" content="Tasty and affordable fast food in Udaipur. Burgers, hot dogs, pizza, fries and cold coffee." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/Logo.png" />
+  <link rel="icon" href="images/Logo.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/Logo.png" alt="The1857House Logo" class="logo-img" />
+        <span class="logo-text">The1857House</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO SECTION ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <span class="hero-badge">📍 Udaipur, Rajasthan</span>
+      <h1 class="hero-title">
+        Welcome to<br />
+        <span class="hero-highlight">The1857House</span>
+      </h1>
+      <p class="hero-subtitle">Affordable and Delicious Fast Food in Udaipur</p>
+      <a href="#menu" class="btn btn-primary hero-btn">
+        <span>View Menu</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT SECTION ═══════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Our Story</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-card reveal">
+          <div class="about-icon">☕</div>
+          <p>
+            <strong>The1857House</strong> is a local cafe in Udaipur serving tasty and affordable fast food. We specialize in burgers, hot dogs, pizza, fries and cold coffee. Perfect place for students and friends to enjoy snacks at low prices.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal" style="--delay: 0.1s">
+            <div class="feature-icon">💰</div>
+            <h3>Affordable Prices</h3>
+            <p>Pocket-friendly meals starting at just ₹35</p>
+          </div>
+          <div class="feature-card reveal" style="--delay: 0.2s">
+            <div class="feature-icon">🍔</div>
+            <h3>Fresh Food</h3>
+            <p>Made fresh with quality ingredients every time</p>
+          </div>
+          <div class="feature-card reveal" style="--delay: 0.3s">
+            <div class="feature-icon">⚡</div>
+            <h3>Fast Service</h3>
+            <p>Quick preparation so you never wait too long</p>
+          </div>
+          <div class="feature-card reveal" style="--delay: 0.4s">
+            <div class="feature-icon">😊</div>
+            <h3>Friendly Environment</h3>
+            <p>Warm vibes, perfect for hanging out with friends</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MENU SECTION ═══════════════ -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Menu</span>
+        <h2 class="section-title">Delicious Picks</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="menu-grid">
+
+        <!-- Burger -->
+        <div class="menu-card reveal" style="--delay: 0.1s">
+          <div class="menu-card-img-wrap">
+            <img src="images/burger.jpg" alt="Burger" class="menu-card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop'" />
+            <div class="menu-card-badge">Best Seller</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Burger</h3>
+            <p class="menu-card-price">₹35</p>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20Burger%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-order">
+              Order Now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hot Dog -->
+        <div class="menu-card reveal" style="--delay: 0.2s">
+          <div class="menu-card-img-wrap">
+            <img src="images/hotdog.jpg" alt="Hot Dog" class="menu-card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1612392062126-2f1d4dee6b11?w=400&h=300&fit=crop'" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Hot Dog</h3>
+            <p class="menu-card-price">₹79</p>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20Hot%20Dog%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-order">
+              Order Now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cold Coffee -->
+        <div class="menu-card reveal" style="--delay: 0.3s">
+          <div class="menu-card-img-wrap">
+            <img src="images/coldcoffee.jpg" alt="Cold Coffee" class="menu-card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop'" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cold Coffee</h3>
+            <p class="menu-card-price">₹39</p>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20Cold%20Coffee%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-order">
+              Order Now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- French Fries -->
+        <div class="menu-card reveal" style="--delay: 0.4s">
+          <div class="menu-card-img-wrap">
+            <img src="images/fries.jpg" alt="French Fries" class="menu-card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop'" />
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">French Fries</h3>
+            <p class="menu-card-price">₹59</p>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20French%20Fries%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-order">
+              Order Now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pizza -->
+        <div class="menu-card reveal" style="--delay: 0.5s">
+          <div class="menu-card-img-wrap">
+            <img src="images/pizza.jpg" alt="Pizza" class="menu-card-img" loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop'" />
+            <div class="menu-card-badge">Popular</div>
+          </div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Pizza</h3>
+            <p class="menu-card-price">₹49</p>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20Pizza%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-order">
+              Order Now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT SECTION ═══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal" style="--delay: 0.1s">
+          <div class="contact-icon">🏠</div>
+          <h3>Cafe Name</h3>
+          <p>The1857House</p>
+        </div>
+        <div class="contact-card reveal" style="--delay: 0.2s">
+          <div class="contact-icon">📍</div>
+          <h3>Location</h3>
+          <p>Udaipur, Rajasthan</p>
+        </div>
+        <div class="contact-card reveal" style="--delay: 0.3s">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>Coming Soon</p>
+        </div>
+        <div class="contact-card reveal" style="--delay: 0.4s">
+          <div class="contact-icon">💬</div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20from%20The1857House" target="_blank" rel="noopener" class="btn btn-whatsapp-card">Chat with Us</a>
+        </div>
+      </div>
+
+      <!-- Embedded Map -->
+      <div class="map-wrapper reveal" style="--delay: 0.5s">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115407.38884504498!2d73.6166927!3d24.5853848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56c69b13cfb%3A0x1c83adca1c249ef!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1708944000000"
+          width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="The1857House Location Map"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/Logo.png" alt="The1857House Logo" class="footer-logo" />
+          <p class="footer-text">Cafe in Udaipur</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram" class="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20from%20The1857House" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The1857House &mdash; Cafe in Udaipur</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ FLOATING WHATSAPP BUTTON ═══════════════ -->
+  <a href="https://wa.me/?text=Hello%20I%20want%20to%20order%20from%20The1857House" target="_blank" rel="noopener"
+    class="whatsapp-float" id="whatsappFloat" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 0 0 .612.612l4.458-1.495A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.25 0-4.336-.657-6.098-1.789l-.426-.268-2.967.994.994-2.967-.268-.426A9.935 9.935 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <span class="whatsapp-tooltip">Order on WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
